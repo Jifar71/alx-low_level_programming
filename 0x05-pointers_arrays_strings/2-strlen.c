@@ -2,11 +2,10 @@
 
 /**
   *_strlen - length of the string
-  *@s:A pointer to an int that will be changed/updated
+  *@s: A pointer to an int that will be changed/updated
   *
   *Return: void that our answer is correct
   */
-
 int _strlen(char *s)
 {
 int u;
