@@ -6,7 +6,6 @@
   *
   *Return: void
   */
-
 void rev_string(char *s)
 {
 char *start_c, *end_c, c;
@@ -17,7 +16,6 @@ for (i = 0; s[i]; i++)
 {
 length++;
 }
-
 count = length;
 
 start_c = s;
@@ -37,5 +35,3 @@ c = *end_c;
 
 start_c++;
 end_c--;
-}
-}
